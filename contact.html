@@ -4,34 +4,50 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css"
 </head>
 
 <body>
-<form class="form-horizontal">
-    <div class="form-group">
-        <label for="text" class="control-label col-xs-4">Name</label> 
-        <div class="col-xs-8">
-            <input id="text" name="text" placeholder="Ex. John Doe" type="text" class="form-control" required="required">
+<div class= "container">
+    <div class="jumbotron">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class= "row justify-content-center">
+                    <form class="form-horizontal">
+                        <fieldset>               
+                            <!-- Form Name -->
+                            <legend>Contact Form</legend>                       
+                        <!-- Text input-->
+                            <div class="form-group">
+                            <label class="col-md-4 control-label" for="email">Email</label>  
+                                <div class="col-md-4">
+                                    <input id="email" name="email" type="text" placeholder="Ex. johndoe@domain.com" class="form-control input-md" required="">
+                            
+                                </div>
+                            </div>
+                        
+                            <!-- Text input-->
+                            <div class="form-group">
+                            <label class="col-md-4 control-label" for="Name">Name</label>  
+                                <div class="col-md-4">
+                                    <input id="Name" name="Name" type="text" placeholder="Ex.John Doe" class="form-control input-md" required="">
+                                </div>
+                            </div>
+                            <!-- Button -->
+                            <div class="form-group">
+                            <label class="col-md-4 control-label" for="singlebutton">Single Button</label>
+                                <div class="col-md-4">
+                                    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Button</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="form-group">
-        <label for="text1" class="control-label col-xs-4">Email</label> 
-        <div class="col-xs-8">
-            <input id="text1" name="text1" placeholder="johndoe@domain.com" type="text" class="form-control" required="required">
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="text3" class="control-label col-xs-4">Address</label> 
-        <div class="col-xs-8">
-            <input id="text3" name="text3" type="text" class="form-control" required="required">
-        </div>
-    </div> 
-    <div class="form-group row">
-        <div class="col-xs-offset-4 col-xs-8">
-            <button name="submit" type="submit" class="btn btn-primary">Submit</button>
-        </div>
-    </div>
-</form>
+    </div>    
+</div>
+
               
 
 
