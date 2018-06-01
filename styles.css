@@ -5,3 +5,10 @@ h1{
 h2{
 
 }
+body{
+    padding-top: 40%;
+    padding-bottom: 40%;
+}
+#jumbotron-content{
+    text-align: center;
+}
