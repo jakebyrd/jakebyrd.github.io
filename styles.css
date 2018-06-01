@@ -53,3 +53,19 @@ h6{
     font-family:Arial, Helvetica, sans-serif;
     font-size:30px
 }
+#email{
+    text-align:center;
+}
+#Name{
+    text-align:center;
+}
+#namelabel{
+    text-align:center;
+}
+#emaillabel{
+    text-align:center;
+}
+legend{
+    text-align:center;
+    font-size:35px;
+}
