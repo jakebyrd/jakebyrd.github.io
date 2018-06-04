@@ -151,7 +151,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <h5>Copyright Jake Byrd 2018</h5>
             </div>
             <div class="col">
-                <a class="btn btn-secondary" href="https://jakebyrd.github.io/contact" role="button">Contact me here</a>
+                <a class="btn btn-secondary" href="https://jakebyrd.github.io/contact.php" role="button">Contact me here</a>
             </div>
         </div>
     </div>
