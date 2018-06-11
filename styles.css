@@ -94,3 +94,15 @@ a{
     background-color: rgba(192,192,192,0.5);
     padding: 50px;
 }
+#content-background{
+        background-image:
+            linear-gradient(
+                rgba(192,192,192,0.5),
+                rgba(192,192,192,0.5),
+                rgba(192,192,192,0.5)
+            ),
+            url(https://www.semoball.com/gallery/26010);
+        background-size: cover;
+        background-position: top center;
+        background-attachment: fixed;
+}
