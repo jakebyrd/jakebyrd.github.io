@@ -2,4 +2,5 @@
 
 visit for my personal website. 
 
-jakebyrd.github.io
+https://jakebyrd.github.io
+
