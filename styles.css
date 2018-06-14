@@ -12,6 +12,12 @@ h2{
     color:white;
 }
 
+h3{
+    font-size:25;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
 h4{
     font-family: Arial, Helvetica, sans-serif;
     text-align:center;
@@ -125,4 +131,24 @@ a{
         background-position: top center;
         background-attachment: fixed;
         text-align: center;
+}
+
+.card-img-top{
+    height:200;
+}
+
+.card-body{
+    background-color: black;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.btn-primary{
+    background-color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    padding: 10px;
+    text-align: center;
+    border: solid 1px red;
 }
